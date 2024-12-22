@@ -1,0 +1,57 @@
+:root {
+  --background: #173B45;
+  --accent: #F8EDED;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--accent);
+  font-family: 'Poppins', 'Courier New', Courier, monospace;
+  background-color: var(--background);
+}
+
+.nav {
+  background-color: var(--background);
+  padding: .5rem;
+  height: 12vh;
+}
+
+.logo {
+  float: left;
+  font-weight: 800;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  font-size: 1.5rem;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 4.5rem;
+}
+
+#hero {
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
