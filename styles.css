@@ -22,7 +22,7 @@
   font-weight: 800;
 }
 
-ul {
+.nar-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,6 +38,11 @@ li {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+  display: flex;
+}
+
 a:hover {
   cursor: pointer;
 }
@@ -45,6 +50,11 @@ a:hover {
 h1 {
   font-weight: 400;
   font-size: 4.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 #hero {
@@ -55,3 +65,21 @@ h1 {
   height: 85vh;
 }
 
+.blog-pieces {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-piece {
+  display: flex;
+  margin: 1rem;
+}
+
+.blog-piece h4 {
+  margin-right: .5rem;
+}
+
+.title {
+  text-decoration: underline;
+  font-weight: 600;
+}
